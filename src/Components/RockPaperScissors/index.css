@@ -1,0 +1,140 @@
+.container {
+  background-color: #223a5f;
+  min-height: 100vh;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scoreContainer {
+  border: 4px solid #ffffff;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65vw;
+}
+
+.name {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.scoreBox {
+  width: 10vw;
+  font-weight: bold;
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.buttonClass {
+  background-color: transparent;
+  border: none;
+}
+
+.rulesBox {
+  outline: none;
+  cursor: pointer;
+  margin-right: 25px;
+  align-self: flex-end;
+  font-weight: bold;
+  padding: 12px;
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rockItemsContainer {
+  margin: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.rockItem {
+  height: 250px;
+  margin-left: 120px;
+  margin-right: 120px;
+  outline: none;
+  cursor: pointer;
+}
+
+.popImg {
+  height: 500px;
+}
+
+.popContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.popClose {
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;
+}
+
+.ruleContainer {
+  align-self: flex-end;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.resultItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultBut {
+  outline: none;
+  cursor: pointer;
+  margin-right: 25px;
+  align-self: center;
+  font-weight: bold;
+  padding: 12px;
+  color: #223a5f;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  font-family: 'Roboto';
+}
