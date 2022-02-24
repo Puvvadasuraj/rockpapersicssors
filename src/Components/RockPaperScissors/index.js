@@ -55,12 +55,12 @@ class RockPaperScissors extends Component {
     } else if (item === 'PAPER') {
       if (computerChoices[randomItem] === 'PAPER') {
         this.setState({status: 'DRAW'})
-      } else if (computerChoices[randomItem] === 'ROCK') {
+      } else if (computerChoices[randomItem] === 'SCISSORS') {
         this.setState(prevState => ({
           score: prevState.score - 1,
           status: 'LOSE',
         }))
-      } else if (computerChoices[randomItem] === 'SCISSORS') {
+      } else if (computerChoices[randomItem] === 'ROCK') {
         this.setState(prevState => ({
           score: prevState.score + 1,
           status: 'WIN',
